@@ -50,10 +50,11 @@ module.exports.sockets = {
     // ttl: <redis session TTL in seconds>,
     user: 'emobook',
     pass: 'SuraTest!',
+    db: 0
     // prefix: 'sess:',
     // host: '127.0.0.1',
     // port: 6379,
-    db: 'sails',
+    //db: 'sails',
     // pass: '<redis auth password>',
 
 
