@@ -18,7 +18,7 @@
  * For more information on configuration, check out:
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.connections.html
  */
-
+process.env.MONGOLAB_URI = 'mongodb://emoji:Suratest!@ds047065.mongolab.com:47065/emobook'
 module.exports.connections = {
 
     /***************************************************************************
