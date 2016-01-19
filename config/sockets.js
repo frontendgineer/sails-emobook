@@ -48,7 +48,7 @@ module.exports.sockets = {
     host: 'pub-redis-17672.us-east-1-3.1.ec2.garantiadata.com',
     port: 17672,
     // ttl: <redis session TTL in seconds>,
-    // db: 0,
+    db: 0,
     pass: 'SuraTest!',
     // prefix: 'sess:',
     // host: '127.0.0.1',
