@@ -46,14 +46,14 @@ module.exports.sockets = {
 
     adapter: 'socket.io-redis',
     host: 'pub-redis-17672.us-east-1-3.1.ec2.garantiadata.com',
-    port: '17672',
+    port: 17672,
     // ttl: <redis session TTL in seconds>,
     user: 'emobook',
     pass: 'SuraTest!',
     // prefix: 'sess:',
     // host: '127.0.0.1',
     // port: 6379,
-    // db: 'sails',
+    db: 'sails',
     // pass: '<redis auth password>',
 
 

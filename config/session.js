@@ -55,7 +55,7 @@ module.exports.session = {
     host: 'pub-redis-17672.us-east-1-3.1.ec2.garantiadata.com',
     port: 17672,
     // ttl: <redis session TTL in seconds>,
-    // db: 0,
+    db: 'sails',
     pass: 'SuraTest!',
     // prefix: 'sess:',
 
